@@ -109,4 +109,47 @@
 //     cout << maxlength;
 // }
 
+// //ques:
+// #include <iostream>
+// using namespace  std;
+// int main(){
+//     int n;
+//     cin >> n;
+//     int sum =0;
+//     for(int i  =0; i <= n;i++){
+//         sum +=i;
+//     }
+//     cout << sum;
+// }
+//ques:
+// #include <iostream>
+// using namespace  std;
+// int main(){
+//     int n;
+//     cin >> n;
+//     bool prime = true;
+//     for(int i =2; i <n; i++){
+//         if(n %i==0){
+//             prime = false;
+//             break;
+//         }
+//     }
 
+//     if(prime){
+//         cout << "Prime";
+//     }else{
+//         cout << "Composite";
+//     }
+// }
+// #include <iostream>
+// using namespace  std;
+// int main(){
+//     int n;
+//     cin >> n;
+//     int factorial = 1;
+//     for(int i =1; i <=n; i++){
+//         factorial = factorial *i;
+//     }
+//     cout << factorial;
+    
+// }
